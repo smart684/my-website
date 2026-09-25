@@ -1,15 +1,78 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Krishna's Website</title>
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #111827, #1e3a8a);
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding: 50px 20px;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 20px;
+            color: #dbeafe;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 10px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #60a5fa;
+            transform: scale(1.05);
+        }
+
+        img {
+            display: block;
+            width: 400px;
+            max-width: 90%;
+            margin: 35px auto;
+            border-radius: 18px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        #message {
+            font-size: 22px;
+            font-weight: bold;
+            color: #93c5fd;
+            margin: 20px;
+        }
+    </style>
+
 </head>
 
 <body>
+
     <h1>Welcome to Krishna's Website</h1>
 
     <p>Hi! I am Krishna. Welcome to my first website.</p>
-<p id="message"></p>
-<button onclick="document.getElementById('message').innerHTML='Welcome Krishna! 👋'">Click Here</button>
-<img src="https://picsum.photos/400/250" alt="My Website Image">
+
+    <p id="message"></p>
+
+    <button onclick="document.getElementById('message').innerHTML='Welcome Krishna! 👋'">
+        Click Here
+    </button>
+
+    <img src="https://picsum.photos/400/250" alt="My Website Image">
+
 </body>
+
 </html>
